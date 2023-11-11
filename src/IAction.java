@@ -1,5 +1,5 @@
 interface IAction
 {
-    public Actions GetAction();
-    public String DoAction();
+    Actions GetAction();
+    String DoAction();
 }

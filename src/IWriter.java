@@ -1,4 +1,4 @@
 interface IWriter
 {
-    public void Write(String str);
+    void Write(String str);
 }
