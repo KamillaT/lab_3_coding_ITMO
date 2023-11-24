@@ -27,4 +27,19 @@ public class Boy extends Human
                 break;
         }
     }
+
+    @Override
+    public void ReturnEmotion(IEmotion emo) {
+        Emotions emotion = emo.GetEmotion();
+        switch (emotion) {
+            case SAD:
+                Writer.Write(Name + " грустно");
+                break;
+            case BORED:
+                Writer.Write(Name + " скучно");
+                break;
+            case HAPPY:
+                Writer.Write(Name + " счастлив");
+        }
+    }
 }

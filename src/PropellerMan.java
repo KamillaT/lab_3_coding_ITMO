@@ -1,4 +1,4 @@
-public class PropellerMan extends Human{
+public class PropellerMan extends Human {
 
     public PropellerMan(String nm, IWriter wrt)
     {
@@ -13,6 +13,16 @@ public class PropellerMan extends Human{
         String str = act.DoAction();
         if (action == Actions.COME) {
             Writer.Write(Name + " приходит " + str);
+        }
+    }
+
+    @Override
+    public void ReturnEmotion(IEmotion emo) {
+        Emotions emotion = emo.GetEmotion();
+        switch (emotion) {
+            case HAPPY:
+                Writer.Write(Name + " счастлив");
+                break;
         }
     }
 }

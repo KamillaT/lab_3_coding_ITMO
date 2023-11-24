@@ -3,6 +3,7 @@ public abstract class Human
     protected String Name;
     protected IWriter Writer;
     public abstract void WriteAction(IAction act);
+    public abstract void ReturnEmotion(IEmotion emo);
 
     @Override
     public boolean equals(Object obj) {

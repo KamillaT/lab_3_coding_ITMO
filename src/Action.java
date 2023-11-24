@@ -8,7 +8,7 @@ public abstract class Action implements IAction
         if (this.getClass() != obj.getClass())
             return false;
         Action others = (Action) obj;
-        return this.DoAction()== others.DoAction() && this.GetAction() == others.GetAction();
+        return this.DoAction() == others.DoAction() && this.GetAction() == others.GetAction();
     }
 
     public int hashCode() {

@@ -10,5 +10,6 @@ public class Main {
         Malysh.WriteAction(new WaitAction());
         Malysh.WriteAction(new TurnAction());
         Karlson.WriteAction(new ComeAction());
+        Malysh.ReturnEmotion(new HappyEmotion());
     }
 }
