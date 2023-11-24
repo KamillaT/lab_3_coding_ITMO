@@ -6,6 +6,6 @@ public class TurnAction extends Action {
 
     @Override
     public String DoAction() {
-        return "8 лет";
+        return " отмечает день рождения";
     }
 }

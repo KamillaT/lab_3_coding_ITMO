@@ -6,6 +6,6 @@ public class CryAction extends Action {
 
     @Override
     public String DoAction() {
-        return "так горько, что сердце разрывается";
+        return " плачет";
     }
 }

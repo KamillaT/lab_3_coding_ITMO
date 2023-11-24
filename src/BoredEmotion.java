@@ -5,7 +5,7 @@ public class BoredEmotion extends Emotion {
     }
 
     @Override
-    public Emotions SetEmotion() {
-        return Emotions.BORED;
+    public String ShowEmotion() {
+        return " утомлен";
     }
 }

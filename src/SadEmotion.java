@@ -5,7 +5,7 @@ public class SadEmotion extends Emotion {
     }
 
     @Override
-    public Emotions SetEmotion() {
-        return Emotions.SAD;
+    public String ShowEmotion() {
+        return " грустит";
     }
 }

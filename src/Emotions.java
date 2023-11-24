@@ -1,5 +1,6 @@
 enum Emotions {
     HAPPY,
     SAD,
-    BORED;
+    BORED,
+    MISSING;
 }

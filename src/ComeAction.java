@@ -6,6 +6,6 @@ public class ComeAction extends Action {
 
     @Override
     public String DoAction() {
-        return "на день рождения";
+        return " приходит";
     }
 }

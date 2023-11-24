@@ -6,7 +6,7 @@ public class HappyEmotion extends Emotion {
     }
 
     @Override
-    public Emotions SetEmotion() {
-        return Emotions.HAPPY;
+    public String ShowEmotion() {
+        return " счастлив";
     }
 }

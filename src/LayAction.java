@@ -6,6 +6,6 @@ public class LayAction extends Action {
 
     @Override
     public String DoAction() {
-        return "ничком";
+        return " лежит";
     }
 }

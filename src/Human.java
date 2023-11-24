@@ -4,6 +4,8 @@ public abstract class Human
     protected IWriter Writer;
     public abstract void WriteAction(IAction act);
     public abstract void ReturnEmotion(IEmotion emo);
+    public abstract void ShowLocation(ILocation loc);
+    public abstract void WriteSeason(ISeason seas);
 
     @Override
     public boolean equals(Object obj) {

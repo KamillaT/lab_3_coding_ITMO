@@ -6,6 +6,6 @@ public class WaitAction extends Action {
 
     @Override
     public String DoAction() {
-        return "так долго своего дня рождения";
+        return " ждёт";
     }
 }
