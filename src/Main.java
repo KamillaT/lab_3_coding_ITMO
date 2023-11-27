@@ -1,3 +1,9 @@
+import actions.*;
+import emotions.*;
+import locations.*;
+import people.*;
+import seasons.*;
+
 import static java.lang.Math.random;
 
 public class Main {
@@ -32,6 +38,7 @@ public class Main {
             }
             case 2 -> {
                 System.out.println("Сейчас осень");
+//                Malysh.WriteSeason(Seasons.AUTUMN);
                 Malysh.WriteSeason(new AutumnSeason());
                 Malysh.WriteAction(new CryAction());
                 Karlson.WriteSeason(new AutumnSeason());
